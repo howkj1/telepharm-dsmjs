@@ -1,0 +1,22 @@
+<article class="panel panel-default">
+  <header class="panel-heading">DSMJS Login</header>
+  <section class="panel-body">
+    <form [ng-form-model]="form" (submit)="submitAsync($event)">
+      <div>
+        <h6>Email / Login</h6>
+        <input type="text" placeholder="email" tabindex="1" autofocus="" ng-control="email">
+      </div>
+      <div>
+        <br><h6>Password</h6>
+        <input type="password" placeholder="password" tabindex="2" ng-control="password">
+      </div>
+      <br>
+      {{ error }}
+      <button type="submit" tabindex="3" (click)="submitAsync()" [disabled]="!form.valid">login <i
+       ></i>
+      </button>
+    </form>
+  </section>
+</article>
+
+

@@ -1,0 +1,12 @@
+{
+  "execMap": {
+    "js": "node -r babel/register -r dotenv/config"
+  },
+  "env": {
+    "NODE_ENV": "debug"
+  },
+  "watch": [
+    "src/server/**/*",
+    "src/modules/**/*"
+  ]
+}

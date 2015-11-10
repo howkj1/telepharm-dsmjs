@@ -1,0 +1,9 @@
+--check-leaks
+--require dotenv/config
+--globals expect,assert,sinon,chai,ng
+--compilers js:babel/register
+--reporter progress
+--require ./test/util/globals
+--require ./test/client/util/setup-client
+--timeout 10000
+--recursive

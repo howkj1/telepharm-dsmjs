@@ -1,0 +1,12 @@
+{
+  "stage": 1,
+  "sourceMaps": "both",
+  "loose": "all",
+  "optional": [
+    "bluebirdCoroutines",
+    "runtime"
+  ],
+  "plugins": [
+    "angular2-annotations"
+  ]
+}
